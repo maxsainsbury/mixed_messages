@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    background-color: black;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    display: flex;
+    width: 99vw;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fortune-box {
+    height: 3rem;
+    padding-bottom: 3rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: italic;
+}
