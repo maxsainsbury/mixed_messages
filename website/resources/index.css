@@ -25,3 +25,17 @@ h1 {
     font-weight: 700;
     font-style: italic;
 }
+
+.button {
+    background-color: #6E51FA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #553FC4;
+}
