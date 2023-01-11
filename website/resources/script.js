@@ -9,5 +9,5 @@ function fortuneString() {
 
     let fortuneIndex = getFortune();
     console.log(fortuneIndex);
-    return `Your fortune today is ${fortune[fortuneIndex]}`;
+    document.getElementById("fortune").innerHTML = `Your fortune today is ${fortune[fortuneIndex]}`;
 }
